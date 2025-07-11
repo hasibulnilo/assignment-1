@@ -57,6 +57,10 @@ nav ul li{
   padding: 12px 36px;
   border-radius: 10px;
   border-color: #4E47FF;
+
+}
+.btn-primary:hover{
+    color: #1a202c;
 }
  /* banner style */
  .banner{
@@ -66,7 +70,43 @@ nav ul li{
   font-family:  "Inter", sans-serif;
 
  }
- /* stats style */
+/* action section */
+ .action{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rebeccapurple; */
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.action .action-title{
+    padding:62px 0;
+    /* gap: auto; */
+    width: 517px;
+    height: 200px;
+
+}
+
+.action .action-title h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.action .action-title p{
+    color:#4f4e4e;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.action .action-img img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+ /*Productive Users Section */
 
         .stats-section {
             background-color: #e6eaff;
@@ -238,7 +278,7 @@ nav ul li{
            
         }
         .btn:hover {
-            background-color: #4E47FF;
+            color: black;
         }
         footer {
             padding: 20px;
