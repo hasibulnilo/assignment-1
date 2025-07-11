@@ -224,11 +224,11 @@ nav ul li{
       background-color: #ffffff;
       font-family: "Inter", sans-serif;
    max-width: 1140px;
-  
    margin: 300px ;
    margin-top: 137px;
    margin-bottom: 92px;
-   border-radius: 80px;
+   border-radius: 100px;
+   margin: 0 auto;
    
     }
     section.hero h1 {
@@ -290,7 +290,7 @@ nav ul li{
             max-width: 1200px;
             margin: 0 auto;
             background-size: cover;
-            margin-top: 100px;
+            margin-top: 92px;
         }
         .text-content {
             text-align: left;
@@ -323,16 +323,18 @@ nav ul li{
         }
         .btn {
             
-      padding: 8px 150px 8px 150px;
+      padding: 8px 200px 8px 200px;
       background-color:#4E47FF ;
       color: #ffffff;
       border: none;
       border-radius: 6px;
       text-decoration: none;
-      font-size: 1em;
-      transition: background-color 0.3s ease;
+      font-size: 16px;
+      font-weight: bold;
+      
       display: inline-block;
-   text-align: center;
+     margin-left: -60px;
+   
    
         }
         .btn:hover {
@@ -342,6 +344,7 @@ nav ul li{
             padding: 20px;
             text-align: center;
             width: 100%;
+            
         }
         footer img {
             height: 50px;
@@ -359,4 +362,6 @@ nav ul li{
         .logo-path{
             margin: 118px 455px;
             color: #4E47FF;
+            
+
         }
